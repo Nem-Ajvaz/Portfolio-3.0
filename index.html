@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"
+    />
+    <title>Nem</title>
+  </head>
+  <body>
+    <!-- Class created for nav section and flex -->
+    <header>
+      <nav class="nav-bar">
+        <!-- First flex-box -->
+        <h2>Nem</h2>
+
+        <!-- Second flex-box -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="#about-me">About&nbsp;Me</a></li>
+            <li><a href="#work">Body of Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li>
+              <a
+                href="asset/resources/Nemanja Ajvaz - Service Delivery Manager.pdf"
+                download="Nemanja Ajvaz - Service Delivery Manager"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Section with a pic of me -->
+      <div class="imgDiv">
+        <img src="asset/images/me.jpg" alt="Me" id="img" />
+      </div>
+      <!-- Class created for About Me section and flex -->
+      <section class="about-me" id="about-me">
+        <p>
+          Hi I'm Nem, I graduated from RMIT with a Bachelor of Engineering
+          (Computing and Networking) in 2017. Since then I have been employed by
+          Mondo, a subsidiary of Ausnet Services, who focus on spacial
+          enterprise software. I started out as an Application Support
+          Technician and gradually moved up to a Team Lead position and now I
+          work as a Service Delivery Manager / psuedo Scrum Master.
+        </p>
+        <p>
+          My goal for the last year has been to get a full time job as a Scrum
+          Master / Agile Coach. I joined University of Sydneys Web Development
+          Bootcamp to learn some technical skills and to gain a more intimate
+          knowledge of a developers day to day life, which I think will be
+          beneficial for a Scrum Master
+        </p>
+        <p>
+          Outisde of work I enjoy playing and watching chess, reading, long
+          distance cycling and dabbling in amateur photography.
+        </p>
+      </section>
+
+      <!-- Class created for body of work section and flex -->
+      <section class="work" id="work">
+        <h2>Body of Work</h2>
+
+        <div class="gallery js-flickity">
+          <div class="gallery-cell">
+            <div class="container-cell">
+              <h3>Chirper</h3>
+              <p>
+                This project will enable the users to securely log in to the web
+                application and chat with other users on topics of interest. The
+                user's login will be saved as well as the message history in
+                different chats.
+              </p>
+              <p>Jquery, JavaScript, Express, SocketIO, BootStrap</p>
+              <p>
+                <a href="https://mysterious-bastion-78954.herokuapp.com/"
+                  >Visit Chirper
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/Nem-Ajvaz/Group_Project_2"
+                  >Visit Chirper Repo</a
+                >
+              </p>
+
+              <img src="asset/images/Chirper.gif" alt="Chirper" />
+            </div>
+          </div>
+          <div class="gallery-cell">
+            <div class="container-cell">
+              <h3>ReelMovies</h3>
+              <p>
+                This project will enable the user to search for a movie title in
+                the search bar and and render the movie details (Title, Plot,
+                Actors, Awards and Ratings) along with the YouTube trailer to
+                the screen.
+              </p>
+              <p>Jquery, JavaScript, YouTube API, OMBD API, TailWind</p>
+              <p>
+                <a href="https://nem-ajvaz.github.io/Group_Project/"
+                  >Visit ReelMovies
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/Nem-Ajvaz/Group_Project"
+                  >Visit ReelMovies Repo</a
+                >
+              </p>
+              <div style="clear:both;"></div>
+              <img src="asset/images/ReelMovies.gif" alt="ReelMovies" />
+            </div>
+          </div>
+          <div class="gallery-cell">
+            <div class="container-cell">
+              <h3>NoteTaker</h3>
+              <p>
+                This application works as an introduction to backend
+                development. We are presented with written front end code and
+                are required to build the back end, connect the two, and then
+                deploy the entire application to Heroku.
+              </p>
+              <p>Express, JavaScript</p>
+              <p>
+                <a href="https://nemsnotetaker.herokuapp.com/notes"
+                  >Visit NoteTaker
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/Nem-Ajvaz/Note-Taker-Express"
+                  >Visit NoteTaker Repo</a
+                >
+              </p>
+              <img src="asset/images/NoteTaker.gif" alt="Note-Taker-Express" />
+            </div>
+          </div>
+          <div class="gallery-cell">
+            <div class="container-cell">
+              <h3>JavaScript Quiz</h3>
+              <p>
+                The purpose of this project was to build a multiple choice quiz
+                which would subtract time on wrong answers and store scores to
+                LocalStorage.
+              </p>
+              <p>Jquery, JavaScript</p>
+              <p>
+                <a href="https://nem-ajvaz.github.io/homework_4/"
+                  >Visit JavaScript Quiz
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/Nem-Ajvaz/homework_4"
+                  >Visit JavaScript Quiz Repo</a
+                >
+              </p>
+
+              <img src="asset/images/JavaScriptQuiz.gif" alt="chirper" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <h2>Other Skills</h2>
+        <div class="skills-container">
+          <div class="skill">
+            <h3>Scrum</h3>
+            <p>
+              I am
+              <a src="https://www.scrum.org/certificates/568645"></a>
+                Scrum Certified and conduct the Scrum Events (Sprint Planning, Retro, Stand Up) and attend others (Refinement, Review) </a
+              >
+            </p>
+            <p>
+              During our Group Project (ReelMovies), I ensured that we would communicate on a daily basis and raise any concerns we had.
+            </p>
+            <p></p>
+          </div>
+          <div class="skill">
+            <h3>Project Management</h3>
+            <p>
+                I designed the different layouts and logic flow diagrams to help the team have a better understanding of how the application works.
+            </p>
+            <p>
+                Even though we only had two weeks to complete the projects, I would create a milestone every 3-4 days to help us stay on track and motivated. 
+            </p>
+                     
+          </div>
+          <div class="skill">
+            <h3>Kanban Board</h3>
+            <p>I used the Kanban board to assign ourselves tasks during the standup. </p>
+            <p>The items were categorized in terms of priority (what is the most important to acheiving our MVP).
+Maintaining the board and keeping the stories as clear and concise was critical to our success.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <!-- First flex-box -->
+
+      <h2>Contact Me</h2>
+
+      <!-- Second flex-box -->
+      <div class="contact-links">
+        <ul>
+          <li class="footer-li">
+            <a href="https://www.linkedin.com/in/nemanja-ajvaz-17a400175/"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="footer-li">
+            <a href="https://github.com/Nem-Ajvaz">GitHub</a>
+          </li>
+          <li class="footer-li">
+            <a href="mailto: nemanja.ajvaz@gmail.com">Email Me</a>
+          </li>
+        </ul>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    </footer>
+  </body>
+</html>
